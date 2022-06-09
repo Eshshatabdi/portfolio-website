@@ -1,12 +1,15 @@
 import React from 'react';
-import Navbar from '../../Shared/Navbar';
+import NabBar from '../../Shared/NabBar';
+
 import Header from '../Header';
+import Projects from '../Projects/Projects';
 
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
+            <NabBar></NabBar>
             <Header></Header>
+            <Projects></Projects>
 
         </div>
     );

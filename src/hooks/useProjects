@@ -1,0 +1,12 @@
+import { useEffect, useState } from "react"
+
+const useProjects = () => {
+    const [projectsData, setProjectsData] = useState([]);
+    useEffect(() => {
+        fetch('')
+            .then(res => res.json())
+            .then(data => setProjectsData(data))
+    }, [])
+    return [projectsData, setProjectsData]
+}
+export default useProjects;
