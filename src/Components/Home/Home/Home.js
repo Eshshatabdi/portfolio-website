@@ -3,6 +3,8 @@ import NabBar from '../../Shared/NabBar';
 
 import Header from '../Header';
 import Projects from '../Projects/Projects';
+import Contact from './Contact';
+
 
 const Home = () => {
     return (
@@ -10,6 +12,7 @@ const Home = () => {
             <NabBar></NabBar>
             <Header></Header>
             <Projects></Projects>
+            <Contact></Contact>
 
         </div>
     );

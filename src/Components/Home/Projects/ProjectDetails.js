@@ -15,7 +15,9 @@ const ProjectDetails = ({ project }) => {
                         <div className="float-right">
                             <a target="_blank" href={project.code}><button className="btn btn-primary">Code Link</button></a>
                         </div>
+
                     </div>
+                    <div className='text-center mt-3 ' ><button className='btn btn-info px-5'>Details</button></div>
                 </div>
             </div>
         </div>

@@ -1,0 +1,11 @@
+.download {
+    text-decoration: none;
+    color: white;
+    border: 2px solid peru;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.download:hover {
+    color: #FA944B;
+}
